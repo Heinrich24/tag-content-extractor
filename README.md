@@ -8,10 +8,10 @@ In a tag-based language like XML or HTML, contents are enclosed between a start 
 
 Given a string of text in a tag-based language, parse this text and retrieve the contents enclosed within sequences of well-organized tags meeting the following criterion:
 
-.Criteria:
-. The name of the start and end tags must be same. The HTML code &lt;h1&gt;Hello World&lt;/h2&gt; is not valid, because the text starts with an h1 tag and ends with a non-matching h2 tag.
-. Tags can be nested, but content between nested tags is considered not valid. For example, in &lt;h1&gt;&lt;a&gt;contents&lt;/a&gt;invalid&lt;/h1&gt;, contents is valid but invalid is not valid.
-. Tags can consist of any printable characters.
+
+1. The name of the start and end tags must be same. The HTML code &lt;h1&gt;Hello World&lt;/h2&gt; is not valid, because the text starts with an h1 tag and ends with a non-matching h2 tag.
+2. Tags can be nested, but content between nested tags is considered not valid. For example, in &lt;h1&gt;&lt;a&gt;contents&lt;/a&gt;invalid&lt;/h1&gt;, contents is valid but invalid is not valid.
+3. Tags can consist of any printable characters.
 
 
 ### HackerRank Level:rabbit:
